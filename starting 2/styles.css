@@ -1,3 +1,22 @@
 h2 {
   color: blue;
 }
+.container {
+  border-width: 1px;
+  border-color: black;
+}
+.dark-container {
+  background-color: #463f3a;
+}
+.medium-container {
+  background-color: #8a817c;
+}
+.light-container {
+  background-color: #bcb8b1;
+}
+.pale-container {
+  background-color: #f4f3ee;
+}
+.blush-container {
+  background-color: #e0afa0;
+}
