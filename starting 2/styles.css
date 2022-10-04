@@ -1,22 +1,44 @@
-h2 {
-  color: blue;
+@font-face {
+  font-family: "Subjectivity-Light";
+  src: url(Subjectivity/Subjectivity-LightSlanted.otf),
+    url(Subjectivity/Subjectivity-LightSlanted.woff2);
 }
+@font-face {
+  font-family: "Subjectivity-Bold";
+  src: url(Subjectivity/Subjectivity-Bold.otf),
+    url(/Subjectivity/Subjectivity-Bold.woff2);
+}
+
+h1 {
+  font-family: "Subjectivity-Bold";
+}
+h2 {
+  font-family: "Subjectivity-Light";
+}
+
 .container {
-  border-width: 1px;
-  border-color: black;
+  border: solid 2px #bcb8b1;
+  width: 850px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .dark-container {
   background-color: #463f3a;
+  width: 400px;
 }
 .medium-container {
   background-color: #8a817c;
+  width: 400px;
 }
 .light-container {
   background-color: #bcb8b1;
+  width: 400px;
 }
 .pale-container {
   background-color: #f4f3ee;
+  width: 400px;
 }
 .blush-container {
   background-color: #e0afa0;
+  width: 400px;
 }
