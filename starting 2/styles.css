@@ -1,30 +1,58 @@
 @font-face {
-  font-family: "Subjectivity-Light";
-  src: url(Subjectivity/Subjectivity-LightSlanted.otf),
-    url(Subjectivity/Subjectivity-LightSlanted.woff2);
+  font-family: "Subjectivity-Regular";
+  src: url(Subjectivity/Subjectivity-Regular.otf),
+    url(Subjectivity/Subjectivity-Regular.woff2);
 }
+@font-face {
+  font-family: "Subjectivity-Medium";
+  src: url(Subjectivity/Subjectivity-Medium.otf),
+    url(/Subjectivity/Subjectivity-Medium.woff2);
+}
+
 @font-face {
   font-family: "Subjectivity-Bold";
   src: url(Subjectivity/Subjectivity-Bold.otf),
     url(/Subjectivity/Subjectivity-Bold.woff2);
 }
-
-h1 {
+.strong {
   font-family: "Subjectivity-Bold";
 }
+h1 {
+  font-family: "Subjectivity-Bold";
+  font-size: 30px;
+}
 h2 {
-  font-family: "Subjectivity-Light";
+  font-family: "Work Sans";
+  font-size: 25px;
+}
+p,
+.container {
+  font-family: "Subjectivity-Regular";
+  font-weight: 100;
+  font-size: 15px;
 }
 
+#title {
+  text-align: center;
+}
+.intertight {
+  font-family: "Inter Tight", sans-serif;
+}
+.worksans {
+  font-family: "Work Sans", sans-serif;
+}
 .container {
   border: solid 2px #bcb8b1;
   width: 850px;
   margin-bottom: 10px;
   padding: 10px;
+  border-radius: 10px;
 }
+
 .dark-container {
   background-color: #463f3a;
   width: 400px;
+  color: beige;
 }
 .medium-container {
   background-color: #8a817c;
